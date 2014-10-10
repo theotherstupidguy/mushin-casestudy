@@ -3,10 +3,10 @@ GEM
   specs:
     daemons (1.1.9)
     eventmachine (1.0.3)
-    gameon (0.0.0.pre108)
+    gameon (0.0.0.pre111)
     gameon-points (0.0.0.pre22)
     gameon-redis (0.0.0.pre37)
-    mushin (0.0.0.pre84)
+    mushin (0.0.0.pre86)
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
@@ -27,7 +27,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  gameon (= 0.0.0.pre108)
+  gameon (= 0.0.0.pre111)
   gameon-points
   gameon-redis
   mushin
