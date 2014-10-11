@@ -28,16 +28,16 @@ get '/good/:id' do
   "#{Time.now} Welcome #{gameon.id} Current score is #{gameon.points}"
 end
 
-=begin
+#=begin
 get '/bad/:id' do
   user = User.new params[:id]
 
   GameOn::Env.set user.id do 
-    on :bad_mayor do 
+    context :bad_mayor do 
       activity [:user, :visits, :bad_page]
     end
   end
   gameon = GameOn::Env.get user.id
   "#{Time.now} Welcome #{gameon.id} Current score is #{gameon.points}"
 end
-=end
+#=end
